@@ -6,168 +6,195 @@ body {
     position: relative;
     width: 600px;
     height: 600px;
-    background-color: white;
+    border: 5px solid white;
+    box-shadow: 5px 5px 10px;
     margin: auto;
     margin-top: 100px;
-    
-    
-    
 }
+
 #red {
     position: absolute;
     background-color: red;
-    width: 200px;
-    height: 200px;    
+    width: 195px;
+    height: 195px;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    padding: inherit;
 }
+
 #inside-red {
     width: 100px;
     height: 100px;
     background: #f594f5;
-    position:absolute;
+    position: absolute;
     border: solid #f594f5;
     border-radius: 50%;
     margin-top: 45px;
-    margin-left: 45px;    
+    margin-left: 45px;
 }
+
 #blue {
     position: absolute;
-    width: 200px;
-    height: 200px;
-    background-color:blue;
+    width: 195px;
+    height: 195px;
+    background-color: blue;
     left: 200px;
-    
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
 }
+
 #inside-blue {
     width: 100px;
     height: 100px;
     background: grey;
-    position:absolute;
+    position: absolute;
     border: solid grey;
     border-radius: 50%;
     margin-top: 45px;
-    margin-left: 45px; 
+    margin-left: 45px;
 }
+
 #green {
     position: absolute;
     width: 200px;
-    height: 200px;
-    background-color:green;
+    height: 195px;
+    background-color: green;
     left: 400px;
-    
+    border-bottom: 5px solid white;
 }
+
 #inside-green {
     width: 100px;
     height: 100px;
     background: #831966;
-    position:absolute;
+    position: absolute;
     border: solid #831966;
     border-radius: 50%;
     margin-top: 45px;
-    margin-left: 45px; 
+    margin-left: 45px;
 }
+
 #yellow {
     position: absolute;
-    width: 200px;
-    height: 200px;
-    background-color:yellow;
+    width: 195px;
+    height: 195px;
+    background-color: yellow;
     left: 0px;
     top: 200px;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
 }
+
 #inside-yellow {
     width: 100px;
     height: 100px;
     background: green;
-    position:absolute;
+    position: absolute;
     border: solid green;
     border-radius: 50%;
     margin-top: 45px;
-    margin-left: 45px; 
+    margin-left: 45px;
 }
+
 #black {
     position: absolute;
-    width: 200px;
-    height: 200px;
-    background-color:black;
+    width: 195px;
+    height: 195px;
+    background-color: black;
     left: 200px;
     top: 200px;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
 }
+
 #inside-black {
     width: 100px;
     height: 100px;
     background: red;
-    position:absolute;
+    position: absolute;
     border: solid red;
     border-radius: 50%;
     margin-top: 45px;
-    margin-left: 45px; 
+    margin-left: 45px;
 }
+
 #orange {
     position: absolute;
     width: 200px;
-    height: 200px;
-    background-color:orange;
+    height: 195px;
+    background-color: orange;
     left: 400px;
     top: 200px;
+    border-bottom: 5px solid white;
 }
+
 #inside-orange {
     width: 100px;
     height: 100px;
     background: blue;
-    position:absolute;
+    position: absolute;
     border: solid blue;
     border-radius: 50%;
     margin-top: 45px;
     margin-left: 45px;
 }
+
 #purple {
     position: absolute;
-    width: 200px;
+    width: 195px;
     height: 200px;
-    background-color:#831966;
+    background-color: #831966;
     left: 0px;
     top: 400px;
+    border-right: 5px solid white;
 }
+
 #inside-purple {
     width: 100px;
     height: 100px;
     background: orange;
-    position:absolute;
+    position: absolute;
     border: solid orange;
     border-radius: 50%;
     margin-top: 45px;
     margin-left: 45px;
 }
+
 #grey {
     position: absolute;
-    width: 200px;
+    width: 195px;
     height: 200px;
-    background-color:grey;
+    background-color: grey;
     left: 200px;
     top: 400px;
+    border-right: 5px solid white;
 }
+
 #inside-grey {
     width: 100px;
     height: 100px;
     background: yellow;
-    position:absolute;
+    position: absolute;
     border: solid yellow;
     border-radius: 50%;
     margin-top: 45px;
     margin-left: 45px;
 }
+
 #fuchsia {
     position: absolute;
     width: 200px;
     height: 200px;
-    background-color:#f594f5;
+    background-color: #f594f5;
     left: 400px;
     top: 400px;
 }
+
 #inside-fuchsia {
     width: 100px;
     height: 100px;
     background: black;
-    position:absolute;
+    position: absolute;
     border: solid black;
     border-radius: 50%;
     margin-top: 45px;
