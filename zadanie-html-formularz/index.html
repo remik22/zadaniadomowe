@@ -4,35 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Formularz</title>
-    <link rel="stylesheet" href="CSS/style.css">
+<!--    <link rel="stylesheet" href="CSS/style.css">-->
 </head>
 
 <body>
 <div id="container">
 <h2>Zapisy na szkolenie</h2>
 <form action="https://formspree.io/remik22@gmail.com" method="POST">
-<!--    <label for="imie">Imię</label>-->
-    <input type="text" name="imie" id="imie" placeholder="Imię">
-<!--    <label for="nazwisko">Nazwisko</label><br>-->
-    <input type="text" name="nazwisko" id="nazwisko" placeholder="Nazwisko">
+    <label for="imie">Imię</label>
+    <input type="text" name="imie" id="imie" placeholder="Imię"><br>
+    <label for="nazwisko">Nazwisko</label><br>
+    <input type="text" name="nazwisko" id="nazwisko" placeholder="Nazwisko"><br>
     <label for="plec">Płeć</label><br/>
     <input type="radio" name="plec" value="mezczyzna">Mężczyzna
-    <input type="radio" name="plec" value="kobieta">Kobieta
-<!--    <label for="email">Email</label><br>-->
-    <input type="email" name="email" id="email" placeholder="Email">
-<!--    <label for="nr_telefonu">Telefon</label><br>-->
-    <input type="tel" name="tel" id="nr_telefonu" placeholder="Nr telefonu">
+    <input type="radio" name="plec" value="kobieta">Kobieta <br>
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="email" placeholder="Email"><br>
+    <label for="nr_telefonu">Telefon</label><br>
+    <input type="tel" name="tel" id="nr_telefonu" placeholder="Nr telefonu"><br>
     <label for="Miasto">Miasto</label>
     <select name="Miasto" id="Miasto">
             <option value="Kraków">Kraków</option>
             <option value="Warszawa">Warszawa</option>
             <option value="Gdansk">Gdańsk</option>
             <option value="Wroclaw">Wrocław</option>
-        </select>
+        </select><br>
 <!--    <label for="wiadomosc">Wiadomość</label><br>-->
-   <label for="Zgoda">Zgoda na przetwarzanie danych osobowych</label>
+   <label for="Zgoda">Zgoda na przetwarzanie danych osobowych</label><br>
    <input type="checkbox" name="tak" value="tak">TAK
-   <input type="checkbox" name="nie" value="nie">NIE
+   <input type="checkbox" name="nie" value="nie">NIE <br>
+   <label for="wiadomosc">Wiadomość</label><br>
     <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10" placeholder="Wiadomość"></textarea><br>
     <input type="submit" value="Wyślij">
 
