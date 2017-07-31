@@ -4,40 +4,53 @@ body {
 
 #container {
     position: relative;
-    width: 600px;
-    height: 600px;
+    width: 595px;
+    height: 595px;
     border: 5px solid white;
     box-shadow: 5px 5px 10px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
 }
-
-#red {
+.kwadrat {
     position: absolute;
-    background-color: red;
     width: 195px;
     height: 195px;
-    border-bottom: 5px solid white;
-    border-right: 5px solid white;
-    padding: inherit;
+    
 }
-
-#inside-red {
+.kropka {
     width: 100px;
     height: 100px;
-    background: #f594f5;
     position: absolute;
-    border: solid #f594f5;
     border-radius: 50%;
     margin-top: 45px;
     margin-left: 45px;
 }
+#red {
+/*    position: absolute;*/
+    background-color: red;
+/*    width: 195px;*/
+/*    height: 195px;*/
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    
+}
+
+#inside-red {
+/*    width: 100px;*/
+/*    height: 100px;*/
+    background: #f594f5;
+/*    position: absolute;*/
+    border: solid #f594f5;
+    border-radius: 50%;
+/*    margin-top: 45px;*/
+/*    margin-left: 45px;*/
+}
 
 #blue {
-    position: absolute;
-    width: 195px;
-    height: 195px;
+/*    position: absolute;*/
+/*    width: 195px;*/
+/*    height: 195px;*/
     background-color: blue;
     left: 200px;
     border-bottom: 5px solid white;
@@ -45,40 +58,40 @@ body {
 }
 
 #inside-blue {
-    width: 100px;
-    height: 100px;
+/*    width: 100px;*/
+/*    height: 100px;*/
     background: grey;
     position: absolute;
     border: solid grey;
-    border-radius: 50%;
-    margin-top: 45px;
+/*    border-radius: 50%;*/
+/*    margin-top: 45px;*/
     margin-left: 45px;
 }
 
 #green {
-    position: absolute;
-    width: 200px;
-    height: 195px;
+/*    position: absolute;*/
+/*    width: 200px;*/
+/*    height: 195px;*/
     background-color: green;
     left: 400px;
     border-bottom: 5px solid white;
 }
 
 #inside-green {
-    width: 100px;
-    height: 100px;
+/*    width: 100px;*/
+/*    height: 100px;*/
     background: #831966;
-    position: absolute;
+/*    position: absolute;*/
     border: solid #831966;
     border-radius: 50%;
-    margin-top: 45px;
-    margin-left: 45px;
+/*    margin-top: 45px;*/
+/*    margin-left: 45px;*/
 }
 
 #yellow {
-    position: absolute;
-    width: 195px;
-    height: 195px;
+/*    position: absolute;*/
+/*    width: 195px;*/
+/*    height: 195px;*/
     background-color: yellow;
     left: 0px;
     top: 200px;
@@ -87,20 +100,20 @@ body {
 }
 
 #inside-yellow {
-    width: 100px;
-    height: 100px;
+/*    width: 100px;*/
+/*    height: 100px;*/
     background: green;
-    position: absolute;
+/*    position: absolute;*/
     border: solid green;
-    border-radius: 50%;
-    margin-top: 45px;
-    margin-left: 45px;
+/*    border-radius: 50%;*/
+/*    margin-top: 45px;*/
+/*    margin-left: 45px;*/
 }
 
 #black {
-    position: absolute;
-    width: 195px;
-    height: 195px;
+/*    position: absolute;*/
+/*    width: 195px;*/
+/*    height: 195px;*/
     background-color: black;
     left: 200px;
     top: 200px;
@@ -109,20 +122,20 @@ body {
 }
 
 #inside-black {
-    width: 100px;
-    height: 100px;
+/*    width: 100px;*/
+/*    height: 100px;*/
     background: red;
-    position: absolute;
+/*    position: absolute;*/
     border: solid red;
-    border-radius: 50%;
-    margin-top: 45px;
-    margin-left: 45px;
+/*    border-radius: 50%;*/
+/*    margin-top: 45px;*/
+/*    margin-left: 45px;*/
 }
 
 #orange {
-    position: absolute;
-    width: 200px;
-    height: 195px;
+/*    position: absolute;*/
+/*    width: 200px;*/
+/*    height: 195px;*/
     background-color: orange;
     left: 400px;
     top: 200px;
@@ -130,20 +143,20 @@ body {
 }
 
 #inside-orange {
-    width: 100px;
-    height: 100px;
+/*    width: 100px;*/
+/*    height: 100px;*/
     background: blue;
-    position: absolute;
+/*    position: absolute;*/
     border: solid blue;
-    border-radius: 50%;
-    margin-top: 45px;
-    margin-left: 45px;
+/*    border-radius: 50%;*/
+/*    margin-top: 45px;*/
+/*    margin-left: 45px;*/
 }
 
 #purple {
-    position: absolute;
-    width: 195px;
-    height: 200px;
+/*    position: absolute;*/
+/*    width: 195px;*/
+/*    height: 200px;*/
     background-color: #831966;
     left: 0px;
     top: 400px;
@@ -151,20 +164,20 @@ body {
 }
 
 #inside-purple {
-    width: 100px;
-    height: 100px;
+/*    width: 100px;*/
+/*    height: 100px;*/
     background: orange;
-    position: absolute;
+/*    position: absolute;*/
     border: solid orange;
-    border-radius: 50%;
-    margin-top: 45px;
-    margin-left: 45px;
+/*    border-radius: 50%;*/
+/*    margin-top: 45px;*/
+/*    margin-left: 45px;*/
 }
 
 #grey {
-    position: absolute;
-    width: 195px;
-    height: 200px;
+/*    position: absolute;*/
+/*    width: 195px;*/
+/*    height: 200px;*/
     background-color: grey;
     left: 200px;
     top: 400px;
@@ -172,32 +185,32 @@ body {
 }
 
 #inside-grey {
-    width: 100px;
-    height: 100px;
+/*    width: 100px;*/
+/*    height: 100px;*/
     background: yellow;
-    position: absolute;
+/*    position: absolute;*/
     border: solid yellow;
-    border-radius: 50%;
-    margin-top: 45px;
-    margin-left: 45px;
+/*    border-radius: 50%;*/
+/*    margin-top: 45px;*/
+/*    margin-left: 45px;*/
 }
 
 #fuchsia {
-    position: absolute;
-    width: 200px;
-    height: 200px;
+/*    position: absolute;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
     background-color: #f594f5;
     left: 400px;
     top: 400px;
 }
 
 #inside-fuchsia {
-    width: 100px;
-    height: 100px;
+/*    width: 100px;*/
+/*    height: 100px;*/
     background: black;
-    position: absolute;
+/*    position: absolute;*/
     border: solid black;
-    border-radius: 50%;
-    margin-top: 45px;
-    margin-left: 45px;
+/*    border-radius: 50%;*/
+/*    margin-top: 45px;*/
+/*    margin-left: 45px;*/
 }
