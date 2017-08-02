@@ -1,0 +1,18 @@
+.clock {
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/liczbynowe.png);
+}
+
+@keyframes odliczanie {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 -1100px;
+    }
+}
+
+#zegar {
+    animation: odliczanie 11s steps(11) infinite;
+}
